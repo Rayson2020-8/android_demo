@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\OpenCVConfig-version.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVModules.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVConfig.cmake",
+    "D:\\appdata\\Android\\ndk\\android-ndk-r20b\\build\\cmake\\android.toolchain.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVModules-release.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\OpenCVConfig.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\appdata\\Android\\ndk\\android-ndk-r20b\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\appdata\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a\" --target clean"
+  ],
+  "libraries": {
+    "Native-Release-arm64-v8a": {
+      "artifactName": "Native",
+      "buildCommand": "D:\\appdata\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a\" --target Native",
+      "abi": "arm64-v8a",
+      "output": "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libNative.so"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+D:/appdata/Android/androidProjects/object_detect_demo/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/Native.dir
+D:/appdata/Android/androidProjects/object_detect_demo/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/appdata/Android/androidProjects/object_detect_demo/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

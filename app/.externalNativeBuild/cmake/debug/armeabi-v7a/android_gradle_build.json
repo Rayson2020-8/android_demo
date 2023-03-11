@@ -1,0 +1,56 @@
+{
+  "stringTable": {
+    "0": "D:/appdata/Android/androidProjects/object_detect_demo/app/.externalNativeBuild/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi23 --gcc-toolchain=D:/appdata/Android/ndk/android-ndk-r20b/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/appdata/Android/ndk/android-ndk-r20b/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DNative_EXPORTS -ID:/appdata/Android/androidProjects/object_detect_demo/app/src/main/cpp/../../../PaddleLite/cxx/include -isystem D:/appdata/Android/androidProjects/object_detect_demo/app/OpenCV/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -ffast-math -Ofast -Os -DNDEBUG -fno-exceptions -fomit-frame-pointer -fno-asynchronous-unwind-tables -fno-unwind-tables -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\OpenCVConfig-version.cmake",
+    "D:\\appdata\\Android\\ndk\\android-ndk-r20b\\build\\cmake\\android.toolchain.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\OpenCVConfig.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\abi-armeabi-v7a\\OpenCVModules-release.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\abi-armeabi-v7a\\OpenCVConfig.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\abi-armeabi-v7a\\OpenCVModules.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\appdata\\Android\\ndk\\android-ndk-r20b\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\appdata\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target clean"
+  ],
+  "libraries": {
+    "Native-Debug-armeabi-v7a": {
+      "buildCommand": "D:\\appdata\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target Native",
+      "buildType": "debug",
+      "toolchain": "3442868390",
+      "abi": "armeabi-v7a",
+      "artifactName": "Native",
+      "files": [
+        {
+          "src": "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\src\\main\\cpp\\Native.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\src\\main\\cpp\\Pipeline.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\src\\main\\cpp\\Utils.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libNative.so"
+    }
+  },
+  "toolchains": {
+    "3442868390": {
+      "cppCompilerExecutable": "D:\\appdata\\Android\\ndk\\android-ndk-r20b\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

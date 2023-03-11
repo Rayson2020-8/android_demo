@@ -1,0 +1,166 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "D:/appdata/Android/androidProjects/object_detect_demo/app/src/main/cpp",
+  "buildDirectory": "D:/appdata/Android/androidProjects/object_detect_demo/app/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DANDROID_NDK\u003dD:\\appdata\\Android\\ndk\\android-ndk-r20b",
+    "-DCMAKE_CXX_FLAGS\u003d",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_ANDROID_NDK\u003dD:\\appdata\\Android\\ndk\\android-ndk-r20b",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dD:\\appdata\\Android\\ndk\\android-ndk-r20b\\build\\cmake\\android.toolchain.cmake",
+    "-G Ninja",
+    "-DCMAKE_MAKE_PROGRAM\u003dD:\\appdata\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-DANDROID_PLATFORM\u003dandroid-23",
+    "-DANDROID_STL\u003dc++_shared",
+    "-DANDROID_TOOLCHAIN\u003d"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Found OpenCV: D:/appdata/Android/androidProjects/object_detect_demo/app/OpenCV (found version \"4.2.0\") ","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Found OpenCV: D:/appdata/Android/androidProjects/object_detect_demo/app/OpenCV (found version "4.2.0") 
+CMAKE SERVER: Found OpenCV: D:/appdata/Android/androidProjects/object_detect_demo/app/OpenCV (found version "4.2.0") 
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"OpenCV libraries: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: OpenCV libraries: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
+CMAKE SERVER: OpenCV libraries: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake","../../../../../../sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","../../../../../../ndk/android-ndk-r20b/build/cmake/android.toolchain.cmake","../../../../../../ndk/android-ndk-r20b/build/cmake/platforms.cmake","../../../OpenCV/sdk/native/jni/OpenCVConfig-version.cmake","../../../OpenCV/sdk/native/jni/OpenCVConfig.cmake","../../../OpenCV/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake","../../../OpenCV/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake","../../../OpenCV/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"D:/appdata/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"D:/appdata/Android/androidProjects/object_detect_demo/app/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"D:/appdata/Android/androidProjects/object_detect_demo/app/.externalNativeBuild/cmake/debug/arm64-v8a","name":"Project","sourceDirectory":"D:/appdata/Android/androidProjects/object_detect_demo/app/src/main/cpp","targets":[{"artifacts":["D:/appdata/Android/androidProjects/object_detect_demo/app/build/intermediates/cmake/debug/obj/arm64-v8a/libNative.so"],"buildDirectory":"D:/appdata/Android/androidProjects/object_detect_demo/app/.externalNativeBuild/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -ffast-math -Ofast -Os -DNDEBUG -fno-exceptions -fomit-frame-pointer -fno-asynchronous-unwind-tables -fno-unwind-tables -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC  ","defines":["Native_EXPORTS"],"includePath":[{"path":"D:/appdata/Android/androidProjects/object_detect_demo/app/src/main/cpp/../../../PaddleLite/cxx/include"},{"isSystem":true,"path":"D:/appdata/Android/androidProjects/object_detect_demo/app/OpenCV/sdk/native/jni/include"}],"isGenerated":false,"language":"CXX","sources":["Native.cc","Pipeline.cc","Utils.cc"]}],"fullName":"libNative.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack  -Wl,--gc-sections -Wl,-z,nocopyreloc","linkLibraries":"D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\libs\\arm64-v8a\\libpaddle_light_api_shared.so -ljnigraphics D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_calib3d.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_core.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_dnn.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_features2d.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_flann.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_highgui.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgcodecs.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgproc.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_ml.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_objdetect.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_photo.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_stitching.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_video.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_videoio.a -lGLESv2 -lEGL -llog D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibprotobuf.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgcodecs.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibjpeg-turbo.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibwebp.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibpng.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibtiff.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibjasper.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libIlmImf.a -landroid -llog -lmediandk D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libquirc.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_calib3d.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_features2d.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_flann.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgproc.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_core.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libtbb.a -lc -lz D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libcpufeatures.a D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libittnotify.a -ldl -lm -llog D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libtegra_hal.a -latomic -lm","linkerLanguage":"CXX","name":"Native","sourceDirectory":"D:/appdata/Android/androidProjects/object_detect_demo/app/src/main/cpp","sysroot":"D:/appdata/Android/ndk/android-ndk-r20b/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

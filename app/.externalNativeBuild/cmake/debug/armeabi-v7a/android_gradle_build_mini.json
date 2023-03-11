@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\OpenCVConfig-version.cmake",
+    "D:\\appdata\\Android\\ndk\\android-ndk-r20b\\build\\cmake\\android.toolchain.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\OpenCVConfig.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\abi-armeabi-v7a\\OpenCVModules-release.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\abi-armeabi-v7a\\OpenCVConfig.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\OpenCV\\sdk\\native\\jni\\abi-armeabi-v7a\\OpenCVModules.cmake",
+    "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\appdata\\Android\\ndk\\android-ndk-r20b\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\appdata\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target clean"
+  ],
+  "libraries": {
+    "Native-Debug-armeabi-v7a": {
+      "artifactName": "Native",
+      "buildCommand": "D:\\appdata\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target Native",
+      "abi": "armeabi-v7a",
+      "output": "D:\\appdata\\Android\\androidProjects\\object_detect_demo\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libNative.so"
+    }
+  }
+}

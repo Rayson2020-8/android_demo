@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Activity_images_run">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/pre_img_bt"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="上一张" />
+        <Button
+            android:id="@+id/return_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回" />
+        <Button
+            android:id="@+id/next_img_bt"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="下一张" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/show_img_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

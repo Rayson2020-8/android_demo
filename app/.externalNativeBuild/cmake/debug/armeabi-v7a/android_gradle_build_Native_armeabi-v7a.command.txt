@@ -1,0 +1,8 @@
+Executable : D:\appdata\Android\sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+--build
+D:\appdata\Android\androidProjects\object_detect_demo\app\.externalNativeBuild\cmake\debug\armeabi-v7a
+--target
+Native
+jvmArgs : 
+

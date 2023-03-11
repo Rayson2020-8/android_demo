@@ -1,0 +1,13 @@
+# ninja log v5
+3	801	698519202	CMakeFiles/Native.dir/Utils.cc.o	c21666f598305394
+1	1123	698519203	CMakeFiles/Native.dir/Native.cc.o	a033f41dee84d6b2
+5	1466	698519203	CMakeFiles/Native.dir/Pipeline.cc.o	41d84017ba0c89c2
+1466	2024	698519204	D:/appdata/Android/androidProjects/object_detect_demo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libNative.so	713fa3b0c9d5309b
+6	949	698519874	CMakeFiles/Native.dir/Utils.cc.o	c21666f598305394
+3	1228	698519874	CMakeFiles/Native.dir/Native.cc.o	a033f41dee84d6b2
+9	1615	698519875	CMakeFiles/Native.dir/Pipeline.cc.o	41d84017ba0c89c2
+1616	2206	698519875	D:/appdata/Android/androidProjects/object_detect_demo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libNative.so	713fa3b0c9d5309b
+14	931	699905626	CMakeFiles/Native.dir/Utils.cc.o	c21666f598305394
+4	1166	699905626	CMakeFiles/Native.dir/Native.cc.o	a033f41dee84d6b2
+8	1526	699905627	CMakeFiles/Native.dir/Pipeline.cc.o	41d84017ba0c89c2
+1526	2376	699905628	D:/appdata/Android/androidProjects/object_detect_demo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libNative.so	713fa3b0c9d5309b
